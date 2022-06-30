@@ -17,7 +17,7 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <DiCssdeck size="3rem" /> <span>Portfolio</span>
+          <DiCssdeck size="4rem" /> <span>Portfolio</span>
         </a>
       </Link>
     </Div1>
@@ -28,21 +28,30 @@ const Header = () => (
         </Link>
       </li>
       <li>
+        <Link href="#education">
+          <NavLink>Education</NavLink>
+        </Link>
+      </li>
+      <li>
         <Link href="#tech">
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
+
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link href="#accomplishments">
+          <NavLink>Certificates and Awards</NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/samuelmaina">
+      <SocialIcons href="https://github.com/samuelmaina" target="_blank">
         <AiFillGithub size="4rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/samuel-maina-339a431a1/">
+      <SocialIcons
+        href="https://www.linkedin.com/in/samuel-maina-339a431a1/"
+        target="_blank"
+      >
         <AiFillLinkedin size="4rem" />
       </SocialIcons>
     </Div3>

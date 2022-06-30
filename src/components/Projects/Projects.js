@@ -61,7 +61,7 @@ const Projects = () => (
               )}
               {p.source && (
                 <ExternalLinks href={p.source} target="_blank">
-                  View Code on Github
+                  Source Code
                 </ExternalLinks>
               )}
             </UtilityList>
