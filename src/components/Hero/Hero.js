@@ -5,25 +5,33 @@ import {
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection, Img } from "./HeroStyles";
 
 const Hero = (props) => (
   <>
     <Section column nopadding>
-      <Img src="/images/samuel.jpg" />
+      <Img src="/images/dp_1.jpg" />
       <LeftSection>
         <SectionTitle main center>
           Samuel Maina Wanjiru <br />
         </SectionTitle>
         <SectionText>
-          Software Engineer with over 3 year of experience in developing
-          softwares and applications in dynamically and statically typed
-          languages.
+          -A fullstack software engineer who has developed software for over 3
+          years in dynamically(JavaScript(vanilla), Node.js , React.js, Python)
+          and statically typed languages(C++,C,java and C#).
         </SectionText>
         <SectionText>
-          Experienced in different SDLC process such as Architecture,
+          -Experienced in different SDLC process such as Architecture,
           Design,Testing, Debugging, Deployment and Maintainance.
+        </SectionText>
+        <SectionText>
+          - Passionate about software engineering. Have read many software
+          engineering books(articles) and practiced many of the principles and
+          practices.
+        </SectionText>
+        <SectionText>
+          -In love with reading, anything to do with space exploration(such as
+          Rocket Science) and chess
         </SectionText>
       </LeftSection>
     </Section>
