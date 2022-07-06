@@ -8,7 +8,7 @@ export const projects = [
        The application prevents user from impulsive buying. User recharge their account periodically.
        When adding to cart they shown their current total and balance.`,
     ],
-    images: ["/images/1.png"],
+    images: ["/images/sokoni.png"],
     tags: ["Mongo", "Express", "Node", "Jest", "EJS"],
     skills: [
       "Comprehensive testing (unit, integrated, end-to-end)",
@@ -28,7 +28,7 @@ export const projects = [
       "A MERN application developed using React 16.8+.",
       "Application connects livestock farmers to vet officers. Vet assigned to farmer based on their specialization,location and previous rating",
     ],
-    images: ["/images/1.png"],
+    images: ["/images/mifugoCare.png"],
     tags: ["React", "Express", "MongoDb", "Jest"],
     skills: ["Comprehensive testing (unit, integrated)", "TDD", "Refactoring"],
     source: "https://github.com/samuelmaina/mifugoCare",
@@ -38,10 +38,11 @@ export const projects = [
   {
     title: "MasokoFedha",
     description: [
-      "This is a  repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+      "A react frontend application that shows cryptocurrency stats and price trends",
+      "Application also shows new for different crytos",
     ],
-    images: ["/images/1.png"],
-    tags: ["React", "Redux", "Flux"],
+    images: ["/images/masoko_5.png"],
+    tags: ["React", "Redux", "Flux", "Ant Design"],
     skills: ["Refactoring", "Visual Design"],
     source: "https://github.com/samuelmaina/mosokoFedha",
     visit: "https://masoko-fedha.vercel.app/",
@@ -49,8 +50,11 @@ export const projects = [
   },
   {
     title: "Ray-Tracer",
-    description: [""],
-    images: ["/images/1.png"],
+    description: [
+      "A 3D rendering application made in C++",
+      "Uses linear algebra and Mathematics to create objects and lights ",
+    ],
+    images: ["/images/raytracer.png"],
     tags: ["C++", "CMake", "SDL2"],
     skills: ["OOP concepts", "OOP design"],
     source: "https://github.com/samuelmaina/Ray-Tracer",
@@ -58,26 +62,27 @@ export const projects = [
   },
 
   {
-    title: "RSA encryption",
-    description: [
-      "A java implementation of the RSA encryption in a TDD manner.",
-      "Have done other Security algorithms using TDD  which can be found at the github profile.",
-    ],
-    images: ["/images/1.png"],
-    tags: ["java", "junit"],
-    skills: ["OOP concepts", "Unit Testing"],
-    source: "https://github.com/samuelmaina/Ray-Tracer",
-    id: 4,
-  },
-  {
-    title: "Kiambu High School Website",
-    description: ["A website for my previous High School"],
-    images: ["/images/1.png"],
+    title: "Guess Game",
+    description: ["A simple guess game app build using React Native"],
+    images: ["/images/guess_game.webp"],
     tags: ["PHP", "SQL", "HTML", "CSS"],
     skills: ["Refactor"],
     source: "https://github.com/samuelmaina/kiambu_high_school",
     visit: "https://kiambu-high.herokuapp.com/",
     id: 5,
+  },
+  {
+    title:
+      "Java Implementation of Different Encryption Methods and Prime Number theories",
+    description: [
+      "A java implementation of the RSA encryption in a TDD manner.",
+      "Have done other Security algorithms using TDD  which can be found at the github profile.",
+    ],
+    images: ["/images/encryption.jpg"],
+    tags: ["java", "junit"],
+    skills: ["OOP concepts", "Unit Testing"],
+    source: "https://github.com/samuelmaina/Ray-Tracer",
+    id: 4,
   },
 ];
 

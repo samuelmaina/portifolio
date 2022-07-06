@@ -59,12 +59,12 @@ export const SectionTitle = styled.h2`
 `;
 
 export const SectionText = styled.p`
-  max-width: 800px;
-  font-size: 24px;
+  width: 100%;
+  font-size: 17px;
   line-height: 40px;
   font-weight: 300;
-  padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 1.8rem;
+  color: rgba(255, 255, 255, 0.7);
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
