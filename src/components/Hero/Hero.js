@@ -18,7 +18,7 @@ const Hero = (props) => (
         <SectionText>
           -A fullstack software engineer who has developed software for over 3
           years in dynamically(JavaScript(vanilla), Node.js , React.js, Python)
-          and statically typed languages(C++,C,java and C#).
+          and statically typed languages(C++,TypeScript, C,java and C#).
         </SectionText>
         <SectionText>
           -Experienced in different SDLC process such as Architecture,

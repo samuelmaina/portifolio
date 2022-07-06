@@ -2,14 +2,14 @@ export const projects = [
   {
     title: "Sokoni",
     description: [
-      `An web-based application developed in Node.js and ejs. 
+      `An web-based application developed in Node.js, Express, Ejs and MongoDb 
     `,
-      `Sokoni is a Swahili(a language spoken in Eastern Africa)word for a market.
-       The application prevents user from impulsive buying. User recharge their account periodically.
-       When adding to cart they shown their current total and balance.`,
+      "Jest is used for unit and integration testing while selenium is used for end-to-end testing",
+      `An web-based online shop prevents user from impulsive buying. User recharge their account periodically.
+       When adding to cart they shown their current total and balance so that they can make informed buying.`,
     ],
     images: ["/images/sokoni.png"],
-    tags: ["Mongo", "Express", "Node", "Jest", "EJS"],
+    tags: ["Mongo", "Express", "Node", "Jest", "selenium", "EJS"],
     skills: [
       "Comprehensive testing (unit, integrated, end-to-end)",
       "TDD",
@@ -53,6 +53,7 @@ export const projects = [
     description: [
       "A 3D rendering application made in C++",
       "Uses linear algebra and Mathematics to create objects and lights ",
+      "Some of the concepts covered include Matrix multiplication, Markov Chains, Determinants",
     ],
     images: ["/images/raytracer.png"],
     tags: ["C++", "CMake", "SDL2"],
@@ -65,7 +66,7 @@ export const projects = [
     title: "Guess Game",
     description: ["A simple guess game app build using React Native"],
     images: ["/images/guess_game.webp"],
-    tags: ["PHP", "SQL", "HTML", "CSS"],
+    tags: ["React Native", "Java"],
     skills: ["Refactor"],
     source: "https://github.com/samuelmaina/kiambu_high_school",
     visit: "https://kiambu-high.herokuapp.com/",
@@ -76,7 +77,8 @@ export const projects = [
       "Java Implementation of Different Encryption Methods and Prime Number theories",
     description: [
       "A java implementation of the RSA encryption in a TDD manner.",
-      "Have done other Security algorithms using TDD  which can be found at the github profile.",
+      "Have done other Security algorithms using TDD  which can be found at my github profile",
+      "Such algorithms include Sieve of Erasthones, Rabin-Miller Primarity test etc.",
     ],
     images: ["/images/encryption.jpg"],
     tags: ["java", "junit"],

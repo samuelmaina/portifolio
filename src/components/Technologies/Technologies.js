@@ -74,8 +74,8 @@ const Technologies = () => (
         </picture>
         <ListContainer>
           <ListParagraph>
-            Experience with <br />
-            Scrum
+            Experienced in: <br />
+            -Scrum
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -87,12 +87,12 @@ const Technologies = () => (
         </picture>
         <ListContainer>
           <ListParagraph>
-            Experience with <br />
-            Machine Learning arigorithms.
+            Experienced in: <br />
+            -Machine Learning arigorithms.
             <br />
-            Data visualization. <br />
-            Spark <br />
-            Hadoop <br />
+            -Data visualization. <br />
+            -Spark <br />
+            -Hadoop <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -103,8 +103,8 @@ const Technologies = () => (
         </picture>
         <ListContainer>
           <ListParagraph>
-            Experience with <br />
-            Figma in UI/UX design
+            Experience with: <br />
+            -Figma in UI/UX design
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -31,10 +31,11 @@ export const BlogCard = styled.div`
     width: 100%;
   }
 `;
+
 export const TitleContent = styled.div`
   text-align: center;
   font-size: 2rem;
-  color: #6b3030;
+  color: #ff347f;
   z-index: 20;
   width: 100%;
 `;
