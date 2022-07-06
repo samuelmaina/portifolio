@@ -2,16 +2,14 @@ export const projects = [
   {
     title: "Sokoni",
     description: [
-      `An web-based application developed in Node.js, Express, Ejs and MongoDb 
-    `,
-      "Jest is used for unit and integration testing while selenium is used for end-to-end testing",
       `An web-based online shop prevents user from impulsive buying. User recharge their account periodically.
-       When adding to cart they shown their current total and balance so that they can make informed buying.`,
+      When adding to cart they are shown their current total and balance so that they can make informed purchases.`,
+      "The shop allows Seller to add new products, edit product details and see their sales trends and profits",
     ],
     images: ["/images/sokoni.png"],
-    tags: ["Mongo", "Express", "Node", "Jest", "selenium", "EJS"],
+    tags: ["Mongo DB", "Express", "Node", "Jest", "selenium", "EJS"],
     skills: [
-      "Comprehensive testing (unit, integrated, end-to-end)",
+      "Comprehensive Automated testing (unit, integrated, end-to-end)",
       "TDD",
       "Refactoring",
       "GOF design patterns",
@@ -25,12 +23,18 @@ export const projects = [
   {
     title: "MifugoCare",
     description: [
-      "A MERN application developed using React 16.8+.",
-      "Application connects livestock farmers to vet officers. Vet assigned to farmer based on their specialization,location and previous rating",
+      "A MERN web-based application that connects livestock farmers to vet services.",
+      "Farmers post the symptoms and images of their ill animals. The systems then assigns the best vet based on nearness to customer,area of specialization and previous ratings.",
+      "After the vet services, farmer rate services offered and make payment. ",
     ],
     images: ["/images/mifugoCare.png"],
-    tags: ["React", "Express", "MongoDb", "Jest"],
-    skills: ["Comprehensive testing (unit, integrated)", "TDD", "Refactoring"],
+    tags: ["React 16.8+ ", "Express", "Mongo DB", "Jest"],
+    skills: [
+      "Comprehensive Automatedd testing (unit, integrated)",
+      "TDD",
+      "Refactoring",
+      "GOF Design patterns",
+    ],
     source: "https://github.com/samuelmaina/mifugoCare",
     visit: "https://serene-taiga-98483.herokuapp.com/",
     id: 1,
@@ -38,11 +42,12 @@ export const projects = [
   {
     title: "MasokoFedha",
     description: [
-      "A react frontend application that shows cryptocurrency stats and price trends",
-      "Application also shows new for different crytos",
+      "A react frontend application that shows cryptocurrency stats and news",
+      "Shows overall cryptocurrency news and stats as well as for individual cryptos",
+      "Application developed using React 16.8+.",
     ],
     images: ["/images/masoko_5.png"],
-    tags: ["React", "Redux", "Flux", "Ant Design"],
+    tags: ["React", "Redux", "Ant Design"],
     skills: ["Refactoring", "Visual Design"],
     source: "https://github.com/samuelmaina/mosokoFedha",
     visit: "https://masoko-fedha.vercel.app/",
@@ -52,7 +57,8 @@ export const projects = [
     title: "Ray-Tracer",
     description: [
       "A 3D rendering application made in C++",
-      "Uses linear algebra and Mathematics to create objects and lights ",
+      "Uses linear algebra and mathematics to simulate real world placement of objects.",
+      "Objects can be of different colors, materials, refractivity and reflectivity",
       "Some of the concepts covered include Matrix multiplication, Markov Chains, Determinants",
     ],
     images: ["/images/raytracer.png"],
@@ -64,19 +70,22 @@ export const projects = [
 
   {
     title: "Guess Game",
-    description: ["A simple guess game app build using React Native"],
+    description: [
+      "A simple guess game app build using React Native",
+      "The system guesses a number and continuously prompt the user to enter a guess",
+      "Systems responds to with 'higher' and 'lower' messages until a correct guess(more like  a binary search)",
+    ],
     images: ["/images/guess_game.webp"],
-    tags: ["React Native", "Java"],
+    tags: ["React Native", "React-Components"],
     skills: ["Refactor"],
     source: "https://github.com/samuelmaina/kiambu_high_school",
-    visit: "https://kiambu-high.herokuapp.com/",
     id: 5,
   },
   {
     title:
       "Java Implementation of Different Encryption Methods and Prime Number theories",
     description: [
-      "A java implementation of the RSA encryption in a TDD manner.",
+      "A collection of java implementations of different encryption schemes in a TDD manner.",
       "Have done other Security algorithms using TDD  which can be found at my github profile",
       "Such algorithms include Sieve of Erasthones, Rabin-Miller Primarity test etc.",
     ],

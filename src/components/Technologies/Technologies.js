@@ -36,8 +36,8 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have worked with a veriety of languages. I have written automated tests
-      for most of them.
+      Have worked with a veriety of languages.Have written automated tests for
+      most of them.
     </SectionText>
     <List>
       <ListItem>
@@ -103,7 +103,7 @@ const Technologies = () => (
         </picture>
         <ListContainer>
           <ListParagraph>
-            Experience with: <br />
+            Experienced with: <br />
             -Figma in UI/UX design
           </ListParagraph>
         </ListContainer>
