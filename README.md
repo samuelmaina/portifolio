@@ -1,2 +1,2 @@
 # portifolio
-A personal portifolio site to showcase my skills,skills and abilities.
+A personal portifolio site to showcase personal skills and abilities.
