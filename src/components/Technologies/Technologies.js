@@ -51,7 +51,6 @@ const Technologies = () => (
         <picture>
           <DiHtml5 size={iconSize} />
           <DiResponsive size={iconSize} />
-          <DiSass size={iconSize} />
         </picture>
       </ListItem>
       <ListItem>

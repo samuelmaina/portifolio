@@ -18,6 +18,14 @@ const data = [
   },
 
   {
+    link: "https://www.hackerrank.com/certificates/d5328d82222b",
+    text: "Luna Hackathon Winner",
+    org: "Google Developers Student Club",
+    details:
+      "Lead a team to become number one in Luna Fest Hackathon in the expert category. Hackathon was on use of Github Workflows to intract with Azure",
+  },
+
+  {
     link: "https://www.ratatype.com/u3056112/certificate/",
     text: "Fast Touch Typing",
     org: "RataType",

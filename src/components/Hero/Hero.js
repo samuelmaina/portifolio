@@ -32,7 +32,7 @@ const Hero = (props) => (
         </SectionText>
         <SectionText>
           -In love with reading, anything to do with space exploration(such as
-          rocket science) and chess
+          rocket science) and chess.
         </SectionText>
       </LeftSection>
     </Section>

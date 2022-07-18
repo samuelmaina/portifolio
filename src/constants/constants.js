@@ -10,8 +10,9 @@ export const projects = [
     tags: ["Mongo DB", "Express", "Node", "Jest", "selenium", "EJS"],
     skills: [
       "Comprehensive Automated testing (unit, integrated, end-to-end)",
-      "TDD",
+      "Test Driven Development",
       "Refactoring",
+      "Clean Architecture",
       "GOF design patterns",
       "SOLID principles",
       "Dependancy Injection",
@@ -21,7 +22,7 @@ export const projects = [
     id: 0,
   },
   {
-    title: "MifugoCare",
+    title: "Mifugo Care",
     description: [
       "A MERN web-based application that connects livestock farmers to vet services.",
       "Farmers post the symptoms and images of their ill animals. The systems then assigns the best vet based on nearness to customer,area of specialization and previous ratings.",
@@ -31,16 +32,16 @@ export const projects = [
     tags: ["React 16.8+ ", "Express", "Mongo DB", "Jest"],
     skills: [
       "Comprehensive Automatedd testing (unit, integrated)",
-      "TDD",
+      "Test Driven Development",
       "Refactoring",
       "GOF Design patterns",
     ],
-    source: "https://github.com/samuelmaina/mifugoCare",
+    source: "https://github.com/samuelmaina/mifugo-care",
     visit: "https://serene-taiga-98483.herokuapp.com/",
     id: 1,
   },
   {
-    title: "MasokoFedha",
+    title: "Masoko Fedha",
     description: [
       "A react frontend application that shows cryptocurrency stats and news",
       "Shows overall cryptocurrency news and stats as well as for individual cryptos",
@@ -49,12 +50,12 @@ export const projects = [
     images: ["/images/masoko_5.png"],
     tags: ["React", "Redux", "Ant Design"],
     skills: ["Refactoring", "Visual Design"],
-    source: "https://github.com/samuelmaina/mosokoFedha",
+    source: "https://github.com/samuelmaina/masoko-fedha",
     visit: "https://masoko-fedha.vercel.app/",
     id: 2,
   },
   {
-    title: "Ray-Tracer",
+    title: "Ray Tracer",
     description: [
       "A 3D rendering application made in C++",
       "Uses linear algebra and mathematics to simulate real world placement of objects.",
@@ -64,7 +65,7 @@ export const projects = [
     images: ["/images/raytracer.png"],
     tags: ["C++", "CMake", "SDL2"],
     skills: ["OOP concepts", "OOP design"],
-    source: "https://github.com/samuelmaina/Ray-Tracer",
+    source: "https://github.com/samuelmaina/ray-tracer",
     id: 3,
   },
 
@@ -78,29 +79,15 @@ export const projects = [
     images: ["/images/guess_game.webp"],
     tags: ["React Native", "React-Components"],
     skills: ["Refactor"],
-    source: "https://github.com/samuelmaina/kiambu_high_school",
+    source: "https://github.com/samuelmaina/guess-game",
     id: 5,
-  },
-  {
-    title:
-      "Java Implementation of Different Encryption Methods and Prime Number theories",
-    description: [
-      "A collection of java implementations of different encryption schemes in a TDD manner.",
-      "Have done other Security algorithms using TDD  which can be found at my github profile",
-      "Such algorithms include Sieve of Erasthones, Rabin-Miller Primarity test etc.",
-    ],
-    images: ["/images/encryption.jpg"],
-    tags: ["java", "junit"],
-    skills: ["OOP concepts", "Unit Testing"],
-    source: "https://github.com/samuelmaina/Ray-Tracer",
-    id: 4,
   },
 ];
 
 export const Experiece = [
   {
     from: "09/2017",
-    to: "08/2022",
+    to: "12/2022",
     school: "BSc. Computer Science, Moi University - Kenya",
     courses: [
       {
@@ -117,8 +104,8 @@ export const Experiece = [
       },
     ],
     organizations: [
+      "Facebook DevC Commmunity-Tech Specialist",
       "Google Developer Student Clubs-Member",
-      "Facebook DevC Commmunity-Member",
     ],
   },
 
