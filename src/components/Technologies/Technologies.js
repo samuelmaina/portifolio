@@ -87,7 +87,9 @@ const Technologies = () => (
         <ListContainer>
           <ListParagraph>
             Experienced in: <br />
-            -Machine Learning arigorithms.
+            -Machine Learning arigorithms- regression, clustering, training
+            <br />
+            -Data Science : cleaning and analysis
             <br />
             -Data visualization. <br />
             -Spark <br />
