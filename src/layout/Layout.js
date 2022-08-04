@@ -11,6 +11,7 @@ export const Layout = ({ children }) => {
   return (
     <Container>
       <Header />
+      <NavDropDown />
       <ScrollToTop />
       <main>{children}</main>
       <Footer />

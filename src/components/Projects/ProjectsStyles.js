@@ -14,11 +14,30 @@ export const GridContainer = styled.section`
   place-items: center;
   column-gap: 2rem;
   row-gap: 3rem;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    padding-bottom: 0;
+  @media screen and (max-width: 940px) {
+    .hamburger {
+      display: block;
+    }
+
+    .nav {
+      position: absolute;
+      flex-direction: column;
+      justify-content: start !important;
+      top: 90px;
+      left: -100%;
+      width: 100%;
+      height: 100vh;
+      background-color: #000;
+      transition: 0.3s;
+    }
+
+    .nav.active {
+      left: 0;
+    }
+
+    .nav a {
+      font-size: 1.4rem;
+    }
   }
 `;
 export const BlogCard = styled.div`

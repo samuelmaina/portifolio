@@ -82,6 +82,20 @@ export const projects = [
     source: "https://github.com/samuelmaina/guess-game",
     id: 5,
   },
+
+  {
+    title: "Elimu Coach",
+    description: [
+      "A React application that converts numbers between bases. Can convert from base 2 to base 62",
+      "The system shows how the conversion has been done steps by step",
+      " ",
+    ],
+    images: ["/images/kikokotoo.png"],
+    tags: ["React", "React-Components"],
+    skills: ["Refactor"],
+    source: "https://github.com/samuelmaina/guess-game",
+    id: 5,
+  },
 ];
 
 export const Experiece = [
