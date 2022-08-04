@@ -22,7 +22,7 @@ const data = [
     text: "Luna Hackathon Winner",
     org: "Google Developers Student Club",
     details:
-      "Lead a team to become number one in Luna Fest Hackathon in the expert category. Hackathon was on use of Github Workflows to intract with Azure",
+      "Emerged top at the expert category in the Luna Fest Hackathon held by GDSC Moi University in conjunction with Microsoft and Github. Hackathon involved use of GitHub workflows to automate Azure operations such as app deployment and teardown",
   },
 
   {

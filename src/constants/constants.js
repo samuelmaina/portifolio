@@ -70,6 +70,19 @@ export const projects = [
   },
 
   {
+    title: "Elimu Coach",
+    description: [
+      "A React application that converts numbers between bases. Can convert from base 2 to base 62",
+      "Application shows steps of conversion.",
+    ],
+    images: ["/images/kikokotoo.png"],
+    tags: ["React 1.8+", "Ant Design"],
+    skills: ["UI design", "React Life Cycle Methods"],
+    source: "https://github.com/samuelmaina/elimu-coach",
+    visit: "https://elimu-deployment.vercel.app/",
+    id: 6,
+  },
+  {
     title: "Guess Game",
     description: [
       "A simple guess game app build using React Native",
@@ -78,20 +91,6 @@ export const projects = [
     ],
     images: ["/images/guess_game.webp"],
     tags: ["React Native", "React-Components"],
-    skills: ["Refactor"],
-    source: "https://github.com/samuelmaina/guess-game",
-    id: 5,
-  },
-
-  {
-    title: "Elimu Coach",
-    description: [
-      "A React application that converts numbers between bases. Can convert from base 2 to base 62",
-      "The system shows how the conversion has been done steps by step",
-      " ",
-    ],
-    images: ["/images/kikokotoo.png"],
-    tags: ["React", "React-Components"],
     skills: ["Refactor"],
     source: "https://github.com/samuelmaina/guess-game",
     id: 5,
