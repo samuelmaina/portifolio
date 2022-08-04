@@ -19,16 +19,18 @@ const Hero = (props) => (
           -A fullstack software engineer who has developed software for over 3
           years in dynamically typed languages(JavaScript(vanilla), Node.js ,
           React.js, Python) as well as strongly typed languages(C++,TypeScript,
-          C,java and C#). Experienced in Machine Learning and Data Science
+          C,java and C#).
+        </SectionText>
+
+        <SectionText>
+          -Experienced in different SDLC processes such as Architecture,
+          Design,Testing, Debugging, Deployment and Maintainance.
         </SectionText>
         <SectionText>
           -Experienced in Artificial Intelligence, Data Science and Machine
           Learning.
         </SectionText>
-        <SectionText>
-          -Experienced in different SDLC processes such as Architecture,
-          Design,Testing, Debugging, Deployment and Maintainance.
-        </SectionText>
+
         <SectionText>
           - Passionate about software engineering. Have read many software
           engineering books(videos and articles) and practiced many of the
