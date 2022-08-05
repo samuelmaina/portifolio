@@ -1,13 +1,11 @@
 import React from "react";
 import {
-  DiFirebase,
   DiReact,
   DiCss3,
   DiResponsive,
   DiZend,
   DiHtml5,
   DiJavascript1,
-  DiSass,
   DiJava,
   DiNodejs,
   DiMongodb,
@@ -71,12 +69,6 @@ const Technologies = () => (
         <picture>
           <DiScrum size={iconSize} />
         </picture>
-        <ListContainer>
-          <ListParagraph>
-            Experienced in: <br />
-            -Scrum
-          </ListParagraph>
-        </ListContainer>
       </ListItem>
 
       <ListItem>
