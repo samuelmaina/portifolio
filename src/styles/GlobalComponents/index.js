@@ -12,7 +12,7 @@ export const Section = styled.section`
   grid-template-columns: 1fr 1fr;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    padding: 24px 48px 0;
+    padding: 0;
     flex-direction: column;
   }
 

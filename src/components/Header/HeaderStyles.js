@@ -12,7 +12,7 @@ export const Container = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 60px);
+    grid-template-rows: repeat(1, 60px);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
   }
@@ -30,8 +30,13 @@ export const Div2 = styled.div`
   grid-area: 1/ 2 / 2 / 5;
   display: flex;
   justify-content: space-around;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+
+  @media screen and (max-width: 678px) {
+    li {
+      display: none;
+      padding: 0;
+      margin: 0;
+    }
   }
 `;
 export const Div3 = styled.div`

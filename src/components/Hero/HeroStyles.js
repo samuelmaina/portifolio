@@ -20,8 +20,13 @@ export const Img = styled.img`
   width: 50%;
   height: 35%;
   left: 50%;
-  margin-left: 50%;
+  margin-left: 33%;
   border-radius: 100%;
   object-fit: cover;
   overflow: hidden;
+  @media screen and (max-width: 678px) {
+     {
+      margin-left: 25%;
+    }
+  }
 `;

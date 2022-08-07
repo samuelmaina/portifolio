@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { FaAngleUp } from "react-icons/fa";
 import Button from "./Button";
+import { GoUpButton } from "./ScrollUpStyles";
 
 const ScrollToTop = () => {
   const [showTopBtn, setShowTopBtn] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      console.log(window.scrollY);
       if (window.scrollY > 500) {
         setShowTopBtn(true);
       } else {
@@ -21,7 +20,7 @@ const ScrollToTop = () => {
     });
   };
   return (
-    <div style={{ position: "fixed", left: 0 }}>
+    <GoUpButton>
       {showTopBtn && (
         <Button
           children={
@@ -34,7 +33,7 @@ const ScrollToTop = () => {
         />
         // <className="icon-position icon-style" />
       )}
-    </div>
+    </GoUpButton>
   );
 };
 export default ScrollToTop;
