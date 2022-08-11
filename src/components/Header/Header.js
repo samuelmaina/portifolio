@@ -43,6 +43,11 @@ const Header = () => (
           <NavLink>Certificates and Awards</NavLink>
         </Link>
       </li>
+      <li>
+        <Link href="#contact-me">
+          <NavLink>Contact Me</NavLink>
+        </Link>
+      </li>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/samuelmaina" target="_blank">

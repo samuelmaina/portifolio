@@ -65,33 +65,6 @@ const Timeline = () => {
     window.addEventListener("resize", handleResize);
   }, []);
 
-  const items = [
-    {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
-      cardSubtitle:
-        "Men of the British Expeditionary Force (BEF) wade out to a destroyer during the evacuation from Dunkirk.",
-      cardDetailedText:
-        "On 10 May 1940, Hitler began his long-awaited offensive in the west...",
-    },
-    {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
-      cardSubtitle:
-        "Men of the British Expeditionary Force (BEF) wade out to a destroyer during the evacuation from Dunkirk.",
-      cardDetailedText:
-        "On 10 May 1940, Hitler began his long-awaited offensive in the west...",
-    },
-    {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
-      cardSubtitle:
-        "Men of the British Expeditionary Force (BEF) wade out to a destroyer during the evacuation from Dunkirk.",
-      cardDetailedText:
-        "On 10 May 1940, Hitler began his long-awaited offensive in the west...",
-    },
-  ];
-
   return (
     <Section id="education">
       <SectionTitle>Education</SectionTitle>
