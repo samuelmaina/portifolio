@@ -34,7 +34,7 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      Have worked with a veriety of languages.Have written automated tests for
+      Have worked with a veriety of languages.Have written automated tests in
       most of them.
     </SectionText>
     <List>
@@ -68,6 +68,7 @@ const Technologies = () => (
         <ListTitle>Agile Methodologies</ListTitle>
         <picture>
           <DiScrum size={iconSize} />
+          <ListParagraph>Scrum</ListParagraph>
         </picture>
       </ListItem>
 

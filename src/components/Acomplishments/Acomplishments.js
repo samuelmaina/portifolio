@@ -18,9 +18,9 @@ const data = [
   },
 
   {
-    link: "https://www.hackerrank.com/certificates/d5328d82222b",
-    text: "Luna Hackathon Winner",
-    org: "Google Developers Student Club",
+    link: "https://devpost.com/samuelmaina/challenges",
+    text: "Luna Hacks Hackathon Winner",
+    org: "Google Developers Student Club, GitHub and Microsoft",
     details:
       "Emerged top at the expert category in the Luna Fest Hackathon held by GDSC Moi University in conjunction with Microsoft and Github. Hackathon involved use of GitHub workflows to automate Azure operations such as app deployment and teardown",
   },
