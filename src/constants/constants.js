@@ -44,12 +44,12 @@ export const projects = [
   {
     title: "Kikao",
     description: [
-      "A PERN platform where developers(mostly from marginalized social sectors based on race, gender, political standing etc.) can share ideas and connect",
+      "A PERN platform where developers can share ideas and connect",
       "User Create profiles, share ideas, comment and like other posts.",
       "Will implement a recruiter functionality to locaate talent ",
       "Not yet hosted as I can't find free postgres hosting",
     ],
-    images: ["/images/mifugoCare.png"],
+    images: ["/images/kikao.png"],
     tags: [
       "Typescript ",
       "React 16.8+ ",
