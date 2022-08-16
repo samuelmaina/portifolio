@@ -13,7 +13,8 @@ const Hero = (props) => (
       <Img src="/images/dp_3.jpg" />
       <LeftSection>
         <SectionTitle main center>
-          Samuel Maina Wanjiru <br />
+          Samuel Maina W.
+          <br />
         </SectionTitle>
         <SectionText>
           -A fullstack software engineer who has developed software for over 3
