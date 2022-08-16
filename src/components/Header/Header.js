@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
+import Button from "../../styles/GlobalComponents/Button";
 
 import {
   Container,
@@ -20,6 +21,25 @@ const Header = () => (
           <DiCssdeck size="4rem" /> <span>Portfolio</span>
         </a>
       </Link>
+
+      <div
+        style={{
+          position: "absolute",
+          top: "10%",
+          left: "10%",
+          color: "white",
+        }}
+      >
+        <Button>
+          <a
+            href="https://drive.google.com/file/d/1HpB2HzYlpFf7pFDoOi6Hf7J2ve8C54-J/view?usp=sharing"
+            target="_blank"
+            style={{ color: "white" }}
+          >
+            Download Resume
+          </a>
+        </Button>
+      </div>
     </Div1>
     <Div2>
       <li>

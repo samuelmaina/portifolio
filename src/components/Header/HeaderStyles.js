@@ -50,6 +50,12 @@ export const Div3 = styled.div`
   }
 `;
 
+export const downloadResume = styled.a`
+position: relative,
+top: 5rem,
+textDecoration: false,
+`;
+
 // Navigation Links
 export const NavLink = styled.a`
   font-size: 1.7rem;

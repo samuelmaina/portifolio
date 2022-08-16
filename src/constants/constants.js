@@ -126,7 +126,7 @@ export const projects = [
       "Systems responds to with 'higher' and 'lower' messages until a correct guess(more like  a binary search)",
     ],
     images: ["/images/guess_game.webp"],
-    tags: ["React Native", "React-Components"],
+    tags: ["React Native", "Styled Components"],
     skills: ["Mobile Design and Development", "Refactor"],
     source: "https://github.com/samuelmaina/guess-game",
     id: 5,

@@ -10,7 +10,7 @@ import { LeftSection, Img } from "./HeroStyles";
 const Hero = (props) => (
   <>
     <Section column nopadding>
-      <Img src="/images/dp_1.jpg" />
+      <Img src="/images/dp_3.jpg" />
       <LeftSection>
         <SectionTitle main center>
           Samuel Maina Wanjiru <br />
