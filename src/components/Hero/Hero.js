@@ -24,8 +24,8 @@ const Hero = (props) => (
         </SectionText>
 
         <SectionText>
-          -Experienced in different SDLC processes such as Architecture,
-          Design,Testing, Debugging, Deployment and Maintainance.
+          -Experienced in different SDLC processes such as Design,Testing,
+          Debugging, Deployment and Maintainance.
         </SectionText>
         <SectionText>
           -Experienced in Artificial Intelligence, Data Science and Machine
