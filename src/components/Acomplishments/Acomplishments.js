@@ -14,7 +14,7 @@ const data = [
     text: "Intemediate JavaScript",
     org: "Hacker Rank",
     details:
-      "It covers topics like Design Patterns, Memory management, concurrency model, and event loops, among others.",
+      "Certificate convers and tests on topics like Design Patterns, Memory management, concurrency model, and event loops, among others.",
   },
 
   {
