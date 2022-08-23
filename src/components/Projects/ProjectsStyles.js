@@ -41,7 +41,6 @@ export const GridContainer = styled.section`
     padding: 0rem;
     font-size: 1.2rem;
     row-gap: 3rem;
-    place-items: initial;
     grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
   }
 `;
