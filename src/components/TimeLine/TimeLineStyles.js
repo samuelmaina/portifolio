@@ -41,22 +41,16 @@ export const CarouselItem = styled.div`
   border-radius: 3px;
   max-width: 100%;
 
-  @media ${(props) => props.theme.breakpoints.md} {
-    max-width: 100%;
-  }
-
   @media ${(props) => props.theme.breakpoints.sm} {
-    margin-left: 32px;
-    width: 100%;
+    width: 120%;
     background: #0e131f;
-    padding: 4px;
-    align-content: start;
+    align-content: space-between;
     scroll-snap-align: start;
     border-radius: 3px;
     overflow: visible;
     position: relative;
     height: fit-content;
-
+    padding: 0.9rem;
     ${(props) =>
       props.active === props.index ? `opacity: 1` : `opacity: 0.5`};
   }
