@@ -1,24 +1,13 @@
 import React, { useState, useRef, useEffect } from "react";
 
-import { Chrono } from "react-chrono";
-
 import {
-  CarouselButton,
-  CarouselButtonDot,
-  CarouselButtons,
   CarouselContainer,
   CarouselItem,
   CarouselItemImg,
-  CarouselItemText,
   CarouselItemTitle,
   CarouselMobileScrollNode,
 } from "./TimeLineStyles";
-import {
-  Section,
-  SectionDivider,
-  SectionText,
-  SectionTitle,
-} from "../../styles/GlobalComponents";
+import { Section, SectionTitle } from "../../styles/GlobalComponents";
 import { Experiece } from "../../constants/constants";
 
 const TOTAL_CAROUSEL_COUNT = Experiece.length;
@@ -125,7 +114,7 @@ const Timeline = () => {
                   return <div key={index}>- {desc.text}</div>;
                 })}
                 <br />
-                <h3>Organization And Volunteering</h3>
+                <h3>Organizations And Volunteering</h3>
                 {item.organizations.map((desc, index) => {
                   return <div key={index}>- {desc}</div>;
                 })}

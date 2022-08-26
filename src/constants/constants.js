@@ -156,7 +156,7 @@ export const Experiece = [
       },
     ],
     organizations: [
-      "Facebook DevC Commmunity-Tech Specialist",
+      "Developer Circles from Facebook- Student Mentor",
       "Google Developer Student Clubs-Member",
     ],
   },
