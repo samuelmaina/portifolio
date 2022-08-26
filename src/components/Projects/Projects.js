@@ -27,7 +27,7 @@ const Projects = () => (
     <SectionTitle main>Projects</SectionTitle>
     <SectionText>
       -Other projects( Machine Learning, Data Science,encryption algos in Java)
-      can be found at my github repository.
+      can be found at my github account.
       <br />
       -Only showing web-based and OOP projects.
     </SectionText>
