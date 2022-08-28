@@ -47,10 +47,11 @@ export const projects = [
   {
     title: "Kikao",
     description: [
-      "A PERN platform where developers can share ideas and connect",
-      "User Create profiles, share ideas, comment and like other posts.",
-      "Will implement a recruiter functionality to locaate talent ",
-      "Not yet hosted as I can't find free postgres hosting",
+      "A PERN platform where developers can share ideas and connect.",
+      "Started with MERN stack in JS but later changed to PERN using TS",
+      "Developes can Create profiles",
+      "Planning to add position to share ideas, comment and like other posts.",
+      " Will implement a recruiter functionality to locate talent. ",
     ],
     images: ["/images/kikao.png"],
     tags: [
@@ -115,7 +116,7 @@ export const projects = [
       "Application shows steps of conversion.",
     ],
     images: ["/images/kikokotoo.png"],
-    tags: ["React 1.8+", "Ant Design"],
+    tags: ["React 1.8+", "Ant Design", "TypeScript"],
     skills: ["UI design", "React 16.8++ hooks"],
     source: "https://github.com/samuelmaina/elimu-coach",
     visit: "https://elimu-deployment.vercel.app/",
