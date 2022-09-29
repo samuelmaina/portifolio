@@ -48,8 +48,6 @@ export const projects = [
     title: "Kikao",
     description: [
       "A PERN platform where developers can share ideas and connect.",
-      "Developes can Create profiles",
-      "Planning to add position to share ideas, comment and like other posts.",
       " Will implement a recruiter functionality to locate talent. ",
     ],
     images: ["/images/kikao.png"],
