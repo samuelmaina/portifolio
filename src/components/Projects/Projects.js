@@ -25,12 +25,6 @@ const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
-    <SectionText>
-      -Other projects( Machine Learning, Data Science,encryption algos in Java)
-      can be found at my github account.
-      <br />
-      -Only showing web-based and OOP projects.
-    </SectionText>
     <GridContainer>
       {projects.map((p, i) => {
         return (
