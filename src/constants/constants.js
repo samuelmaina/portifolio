@@ -8,6 +8,7 @@ export const projects = [
       "Layered application according to Clean Architecture. Implemented some GOF pattterns in the application",
       "Carried unit, integrated and end-to-end tests.",
     ],
+    heroku: true,
     images: ["/images/sokoni.png"],
     tags: ["Mongo DB", "Express", "Node", "Jest", "selenium", "EJS"],
     skills: [
@@ -41,6 +42,7 @@ export const projects = [
     ],
     source: "https://github.com/samuelmaina/mifugo-care",
     visit: "https://serene-taiga-98483.herokuapp.com/",
+    heroku: true,
     id: 1,
   },
 

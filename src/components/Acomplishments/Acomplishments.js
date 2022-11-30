@@ -10,6 +10,13 @@ import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
   {
+    link: "https://devpost.com/samuelmaina/challenges",
+    text: "MLH Orientation Hackathon Winner",
+    org: "Major League Hacking",
+    details:
+      "Teamed up with an Amazon intern and Indian SWE and created an application for Minting NFTs on Solana network using node.js, Next.js and Smart Contracts.",
+  },
+  {
     link: "https://www.hackerrank.com/certificates/d5328d82222b",
     text: "Intemediate JavaScript",
     org: "Hacker Rank",

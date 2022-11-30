@@ -55,9 +55,14 @@ const Projects = () => (
               })}
             </div>
             <UtilityList>
-              {p.visit && (
+              {p.visit && p.heroku && (
                 <ExternalLinks href={p.visit} target="_blank">
-                  View Site
+                  Visit Site (May take time to Load)
+                </ExternalLinks>
+              )}
+              {p.visit && !p.heroku && (
+                <ExternalLinks href={p.visit} target="_blank">
+                  Visit Site
                 </ExternalLinks>
               )}
               {p.source && (
