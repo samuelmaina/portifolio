@@ -16,20 +16,27 @@ export default function Info() {
           Samuel Maina W.
           <br />
         </SectionTitle>
-        <SectionText>
-          -A fullstack software engineer who has developed software for over 3
-          years in dynamically typed languages(JavaScript(vanilla), Node.js ,
-          React.js, Python) as well as strongly typed languages(C++,TypeScript,
-          C,java and C#).
-        </SectionText>
 
         <SectionText>
-          -Experienced in different SDLC processes such as Design,Testing,
-          Debugging, Deployment and Maintainance.
+          - Learning-focused Software Engineer with BSc. Computer Science and
+          motivation to build strong career foundation alongside successful
+          team.
         </SectionText>
         <SectionText>
-          -Experienced in Artificial Intelligence, Data Science and Machine
-          Learning.
+          -Well versed with JavaScript, TypeScript, C++, Python,Java, SQL and
+          NoSQL databases and backend Technologies and ready to further develop
+          skills acquired from education.
+        </SectionText>
+        <SectionText>
+          -Advanced abilities in Agile methodologies and software testing.
+        </SectionText>
+        <SectionText>
+          -Always ready to learn new processes and help improve software
+          systems.
+        </SectionText>
+        <SectionText>
+          - Skilled in software design, testing ,debugging, deployment and
+          maintenance.
         </SectionText>
 
         <SectionText>
