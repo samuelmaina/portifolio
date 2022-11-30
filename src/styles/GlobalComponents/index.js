@@ -5,12 +5,10 @@ export const Section = styled.section`
   flex-direction: ${(props) => (props.row ? "row" : "column")};
   padding: ${(props) => (props.nopadding ? "0" : "32px 48px 0")};
   margin: 0 auto;
-  max-width: 1040px;
+  max-width: 100%;
   box-sizing: content-box;
-  position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
-
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 0;
     flex-direction: column;
@@ -28,8 +26,7 @@ export const SectionTitle = styled.h2`
   font-weight: 800;
   font-size: ${(props) => (props.main ? "65px" : "56px")};
   line-height: ${(props) => (props.main ? "72px" : "56px")};
-  width: max-content;
-  max-width: 100%;
+  width: 120%;
   background: linear-gradient(
     121.57deg,
     #ffffff 18.77%,
@@ -59,12 +56,12 @@ export const SectionTitle = styled.h2`
 `;
 
 export const SectionText = styled.p`
-  width: 100%;
   font-size: 17px;
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 1.8rem;
   color: rgba(255, 255, 255, 0.8);
+  width: 100%;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;

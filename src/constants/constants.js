@@ -119,19 +119,19 @@ export const projects = [
     visit: "https://elimu-deployment.vercel.app/",
     id: 6,
   },
-  {
-    title: "Guess Game",
-    description: [
-      "A simple guess game app build using React Native",
-      "The system guesses a number and continuously prompt the user to enter a guess",
-      "Systems responds to with 'higher' and 'lower' messages until a correct guess(more like  a binary search)",
-    ],
-    images: ["/images/guess_game.webp"],
-    tags: ["React Native", "Styled Components"],
-    skills: ["Mobile Design and Development", "Refactoring"],
-    source: "https://github.com/samuelmaina/guess-game",
-    id: 5,
-  },
+  // {
+  //   title: "Guess Game",
+  //   description: [
+  //     "A simple guess game app build using React Native",
+  //     "The system guesses a number and continuously prompt the user to enter a guess",
+  //     "Systems responds to with 'higher' and 'lower' messages until a correct guess(more like  a binary search)",
+  //   ],
+  //   images: ["/images/guess_game.webp"],
+  //   tags: ["React Native", "Styled Components"],
+  //   skills: ["Mobile Design and Development", "Refactoring"],
+  //   source: "https://github.com/samuelmaina/guess-game",
+  //   id: 5,
+  // },
 ];
 
 export const Experiece = [
