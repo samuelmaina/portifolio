@@ -2,11 +2,10 @@ export const projects = [
   {
     title: "Sokoni",
     description: [
-      `An web-based online shop prevents user from impulsive buying. User recharge their account periodically.
-      When adding to cart they are shown their current total and balance so that they can make informed purchases.`,
+      `Developed a web-based online shop using Mongo, Express, Node and Ejs. Has dashboards for both sellers and shoppers which show profit, purchase analytics and balances.`,
+      `Carried out comprehensive  unit and integration  testing (using Jest) in the backend and end-to-end (using Selenium) automated testing which minimized production bugs and reduced development time by 30%.`,
+      `Layered some parts of the application according to the Clean Architecture paradigm by moving the business logic  and third party APIs to separate files which could be tested on their own. This improved test running time and reduced the test fragility.`,
       "The shop allows Seller to add new products, edit product details and see their sales trends and profits",
-      "Layered application according to Clean Architecture. Implemented some GOF pattterns in the application",
-      "Carried unit, integrated and end-to-end tests.",
     ],
     heroku: true,
     images: ["/images/sokoni.png"],
@@ -30,6 +29,7 @@ export const projects = [
       "A MERN web-based application that connects livestock farmers to vet services.",
       "Farmers post the symptoms and images of their ill animals. The systems then assigns the best vet based on nearness to customer,area of specialization and previous ratings.",
       "After the vet services, farmer rate services offered and make payment. ",
+      "The platform allows vets to manage jobs by moving them from the 'assigned' to the 'done' category",
       "Implemented the backend APIs in TDD using jest. Implemented the builder pattern in the request responder",
     ],
     images: ["/images/mifugoCare.png"],
@@ -49,8 +49,10 @@ export const projects = [
   {
     title: "Kikao",
     description: [
-      "A PERN platform where developers can share ideas and connect.",
-      " Will implement a recruiter functionality to locate talent. ",
+      "A PERN platform where developers can share ideas and connect. They start by creating accounts which hold their education, experience, and websites.",
+      "They can post,comment and reply to posts.",
+      "App allows CRUD operations on posts and comments.",
+      "Still under development.",
     ],
     images: ["/images/kikao.png"],
     tags: [
@@ -121,19 +123,19 @@ export const projects = [
     visit: "https://elimu-deployment.vercel.app/",
     id: 6,
   },
-  // {
-  //   title: "Guess Game",
-  //   description: [
-  //     "A simple guess game app build using React Native",
-  //     "The system guesses a number and continuously prompt the user to enter a guess",
-  //     "Systems responds to with 'higher' and 'lower' messages until a correct guess(more like  a binary search)",
-  //   ],
-  //   images: ["/images/guess_game.webp"],
-  //   tags: ["React Native", "Styled Components"],
-  //   skills: ["Mobile Design and Development", "Refactoring"],
-  //   source: "https://github.com/samuelmaina/guess-game",
-  //   id: 5,
-  // },
+  {
+    title: "Guess Game",
+    description: [
+      "A simple guess game app build using React Native",
+      "The system guesses a number and continuously prompt the user to enter a guess",
+      "Systems responds to with 'higher' and 'lower' messages until a correct guess(more like  a binary search)",
+    ],
+    images: ["/images/guess_game.webp"],
+    tags: ["React Native", "Styled Components"],
+    skills: ["Mobile Design and Development", "Refactoring"],
+    source: "https://github.com/samuelmaina/guess-game",
+    id: 5,
+  },
 ];
 
 export const Experiece = [
