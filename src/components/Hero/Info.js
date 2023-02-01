@@ -17,13 +17,12 @@ export default function Info() {
         </SectionTitle>
         <SectionText>
           -FullStack software engineer,well versed in
-          JavaScript/TypeScript(React.js, Next.js, Node.js, Express), C++,Java
-          (Spring), Python, SQL(Postgres and MySQL) and NoSQL
-          databases(MongoDB).
+          JavaScript/TypeScript(React.js, Next.js, Node.js, Express), C++,Java,
+          Python, SQL(Postgres and MySQL) and NoSQL databases(MongoDB).
         </SectionText>
         <SectionText>
           - Experienced in Agile methods (Scrum).Skilled in automated
-          testing(Jest, JUnit, Mockito) ,debugging, deployment and maintenance.
+          testing(Jest, JUnit) ,debugging, deployment and maintenance.
         </SectionText>
       </Section>
     </>
