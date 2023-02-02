@@ -154,7 +154,7 @@ function ContactForm() {
       />
       {name && name.length <= 0 && <StyledAlert>Name is required.</StyledAlert>}
       {!isNameValid && <StyledAlert>Invalid Name.</StyledAlert>}
-      <StyledLabel invalid={!isNameValid}>
+      <StyledLabel invalid={!isEmailValid}>
         <Required> * </Required> Email:
       </StyledLabel>
       <StyledInput

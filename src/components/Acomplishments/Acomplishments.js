@@ -32,13 +32,13 @@ const data = [
       "Emerged top at the expert category in the Luna Fest Hackathon held by GDSC Moi University in conjunction with Microsoft and Github. Hackathon involved use of GitHub workflows to automate Azure operations such as app deployment and teardown",
   },
 
-  {
-    link: "https://www.ratatype.com/u3056112/certificate/",
-    text: "Fast Touch Typing",
-    org: "RataType",
-    details:
-      " A certification for reaching a typing speed of 59 Words Per Minute. The test involved 250 words consisting of words, numbers and puntuation.",
-  },
+  // {
+  //   link: "https://www.ratatype.com/u3056112/certificate/",
+  //   text: "Fast Touch Typing",
+  //   org: "RataType",
+  //   details:
+  //     " A certification for reaching a typing speed of 59 Words Per Minute. The test involved 250 words consisting of words, numbers and puntuation.",
+  // },
 ];
 
 const Acomplishments = () => (
