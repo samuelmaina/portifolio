@@ -11,21 +11,23 @@ export const Container = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(1, 60px);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 0.5rem;
-    grid-row-gap: 0.5rem;
   }
 `;
 export const Div1 = styled.div`
-  grid-area: 1/ 1 / 2 / 1;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 3;
-  }
+  position: "absolute";
+  top: "10%";
+  left: "10%";
+  color: "white";
 `;
+
+export const HeaderLink = styled.a`
+  display: "flex";
+  alignitems: "center";
+  color: "white";
+`;
+
 export const Div2 = styled.div`
   grid-area: 1/ 2 / 2 / 5;
   display: flex;
@@ -58,7 +60,7 @@ textDecoration: false,
 
 // Navigation Links
 export const NavLink = styled.a`
-  font-size: 1.7rem;
+  font-size: 2.2rem;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;

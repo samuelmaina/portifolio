@@ -9,6 +9,8 @@ import {
   Div1,
   Div2,
   Div3,
+  DownLoadButton,
+  HeaderLink,
   NavLink,
   SocialIcons,
 } from "./HeaderStyles";
@@ -17,29 +19,10 @@ const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
+        <HeaderLink>
           <DiCssdeck size="4rem" /> <span>Portfolio</span>
-        </a>
+        </HeaderLink>
       </Link>
-
-      <div
-        style={{
-          position: "absolute",
-          top: "10%",
-          left: "10%",
-          color: "white",
-        }}
-      >
-        <Button>
-          <a
-            href="https://drive.google.com/file/d/1HpB2HzYlpFf7pFDoOi6Hf7J2ve8C54-J/view?usp=sharing"
-            target="_blank"
-            style={{ color: "white" }}
-          >
-            Download Resume
-          </a>
-        </Button>
-      </div>
     </Div1>
     <Div2>
       <li>

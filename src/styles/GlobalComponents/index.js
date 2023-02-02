@@ -8,16 +8,10 @@ export const Section = styled.section`
   max-width: 100%;
   box-sizing: content-box;
   overflow: hidden;
-  grid-template-columns: 1fr 1fr;
-  @media ${(props) => props.theme.breakpoints.md} {
-    padding: 0;
-    flex-direction: column;
-  }
+  grid-template-columns: 2fr 1fr;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
-
-    width: calc(100vw - 32px);
     flex-direction: column;
   }
 `;

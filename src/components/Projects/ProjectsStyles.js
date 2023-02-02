@@ -9,7 +9,7 @@ export const Img = styled.img`
 export const GridContainer = styled.section`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  padding: 5rem;
+  padding: 4rem;
   place-items: center;
   column-gap: 2rem;
   row-gap: 3rem;
@@ -37,7 +37,6 @@ export const GridContainer = styled.section`
     .nav a {
       font-size: 1.4rem;
     }
-    width: 90%;
     padding: 0rem;
     font-size: 1.2rem;
     row-gap: 3rem;
@@ -50,8 +49,8 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
-    width: 100%;
+    width: 95%;
+    box-shadow: 10px rgba(80, 78, 78, 0.8);
   }
 `;
 
@@ -68,7 +67,7 @@ export const HeaderThree = styled.h3`
   letter-spacing: 2px;
   color: #9cc9e3;
   padding: 0.5rem 0;
-  font-size: ${(props) => (props.title ? "3rem" : "2rem")};
+  font-size: ${(props) => (props.shouldBeTitle ? "3rem" : "2rem")};
 `;
 
 export const Hr = styled.hr`
@@ -89,7 +88,7 @@ export const Intro = styled.div`
   line-height: 18px;
 `;
 
-export const CardInfo = styled.p`
+export const CardInfo = styled.div`
   width: 100%;
   padding: 0 50px;
   color: #e4e6e7;
@@ -98,6 +97,7 @@ export const CardInfo = styled.p`
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.3rem;
+    align-items: center;
   }
 `;
 
@@ -107,6 +107,13 @@ export const UtilityList = styled.ul`
   display: flex;
   justify-content: space-around;
   margin: 2.5rem 0;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: fit-content;
+    margin: 10px 0;
+  }
 `;
 
 export const ExternalLinks = styled.a`
@@ -119,6 +126,7 @@ export const ExternalLinks = styled.a`
   &:hover {
     background: #801414;
   }
+  margin: 5px 0;
 `;
 
 export const TagList = styled.ul`
@@ -129,6 +137,6 @@ export const TagList = styled.ul`
 `;
 export const Tag = styled.li`
   color: #d8bfbf;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 1rem 2rem;
 `;

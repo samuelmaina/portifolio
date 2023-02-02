@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { Section, SectionTitle } from "../../styles/GlobalComponents";
+import ContactPage from "../ContactForm/ContactForm";
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import { ListTitle } from "../Technologies/TechnologiesStyles";
@@ -21,6 +22,7 @@ const Footer = () => {
     <Section id="contact-me">
       <FooterWrapper>
         <SectionTitle> Contact Me </SectionTitle>
+        <ContactPage />
         <LinkList>
           <LinkColumn>
             <LinkTitle>Call</LinkTitle>

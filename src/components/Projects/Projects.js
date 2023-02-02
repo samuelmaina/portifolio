@@ -30,13 +30,13 @@ const Projects = () => (
         return (
           <BlogCard key={i}>
             <TitleContent>
-              <HeaderThree title>{p.title}</HeaderThree>
+              <HeaderThree shouldBeTitle>{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
             <Img src={p.images[0]} />
             <CardInfo className="card-info">
-              {p.description.map((des) => {
-                return <p> - {des} </p>;
+              {p.description.map((des, i) => {
+                return <p key={i}> - {des} </p>;
               })}
               <br />
             </CardInfo>
@@ -51,7 +51,7 @@ const Projects = () => (
             <div>
               <TitleContent>Skills Demostrated (Learnt) </TitleContent>
               {p.skills.map((t, i) => {
-                return <p>- {t}</p>;
+                return <p key={i}>- {t}</p>;
               })}
             </div>
             <UtilityList>

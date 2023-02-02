@@ -1,7 +1,7 @@
 import React from "react";
 
 const BackgroundAnimation = () => (
-  <div>
+  <div style={{ height: "0px", position: "sticky" }}>
     <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
