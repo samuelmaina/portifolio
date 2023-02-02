@@ -16,6 +16,7 @@ const ScrollToTop = () => {
   const goToTop = () => {
     window.scrollTo({
       top: 0,
+      left: 0,
       behavior: "smooth",
     });
   };
@@ -23,15 +24,14 @@ const ScrollToTop = () => {
     <GoUpButton>
       {showTopBtn && (
         <Button
+          alt
           children={
             <>
               <p>Go to the Top</p>
             </>
           }
-          alt
           onClick={goToTop}
         />
-        // <className="icon-position icon-style" />
       )}
     </GoUpButton>
   );

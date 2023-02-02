@@ -5,7 +5,7 @@ export const GoUpButton = styled.div`
   left: 3%;
   @media screen and (max-width: 678px) {
      {
-      position: none;
+      position: absolute;
       diplay: none;
     }
   }
