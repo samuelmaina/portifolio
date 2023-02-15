@@ -20,7 +20,7 @@ export const projects = [
       "Dependancy Injection",
     ],
     source: "https://github.com/samuelmaina/sokoni",
-    visit: "https://sm-online-shop.herokuapp.com/",
+    // visit: "https://sm-online-shop.herokuapp.com/",
     id: 0,
   },
   {
@@ -41,7 +41,7 @@ export const projects = [
       "GOF Design patterns",
     ],
     source: "https://github.com/samuelmaina/mifugo-care",
-    visit: "https://serene-taiga-98483.herokuapp.com/",
+    // visit: "https://serene-taiga-98483.herokuapp.com/",
     heroku: true,
     id: 1,
   },
