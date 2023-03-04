@@ -7,7 +7,6 @@ export const projects = [
       `Layered some parts of the application according to the Clean Architecture paradigm by moving the business logic  and third party APIs to separate files which could be tested on their own. This improved test running time and reduced the test fragility.`,
       "The shop allows Seller to add new products, edit product details and see their sales trends and profits",
     ],
-    heroku: true,
     images: ["/images/sokoni.png"],
     tags: ["Mongo DB", "Express", "Node", "Jest", "selenium", "EJS"],
     skills: [
@@ -133,16 +132,14 @@ export const projects = [
     description: [
       "Teamed up with 2 teammates to create our own NFT collection on the Solana blockchain.",
       "It's a dApp that allows users to mint from a collection of 50 MLH Funky Fellows and view their transactions on chain using SolanaFM. Users can also view their NFTs stored in their wallets.",
-      "Application developed using React 16.8+, web3, Solana Blockchain",
     ],
-    images: ["/images/masoko_5.png"],
+    images: ["/images/funky_fellows.png"],
     tags: ["React", "Web 3", "Chakra UI"],
     skills: ["web 3"],
     source: "https://github.com/samuelmaina/mlh-nft-mint",
     visit: "https://devpost.com/software/mlh-funky-fellows",
     id: 7,
   },
-
   {
     title: "Elimu Coach",
     description: [
