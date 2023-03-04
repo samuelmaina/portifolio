@@ -108,25 +108,7 @@ export const projects = [
     visit: "https://masoko-fedha.vercel.app/",
     id: 2,
   },
-  {
-    title: "Masoko Fedha",
-    description: [
-      "A react frontend application that shows cryptocurrency stats and news",
-      "Shows overall cryptocurrency news and stats as well as for individual cryptos",
-      "Application developed using React 16.8+.",
-    ],
-    images: ["/images/masoko_5.png"],
-    tags: ["React", "Redux", "Ant Design"],
-    skills: [
-      "Refactoring",
-      "Visual Design",
-      "Using Rapid API",
-      "React 16.8+ hooks",
-    ],
-    source: "https://github.com/samuelmaina/masoko-fedha",
-    visit: "https://masoko-fedha.vercel.app/",
-    id: 2,
-  },
+
   {
     title: "MLH Funky Fellows",
     description: [
