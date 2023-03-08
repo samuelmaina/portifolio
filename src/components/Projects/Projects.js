@@ -60,14 +60,15 @@ const Projects = () => (
                   Visit Site (May take time to Load)
                 </ExternalLinks>
               )}
-              {p.visit && !p.heroku && (
-                <ExternalLinks href={p.visit} target="_blank">
-                  Visit Site
-                </ExternalLinks>
-              )}
+
               {p.source && (
                 <ExternalLinks href={p.source} target="_blank">
                   Source Code
+                </ExternalLinks>
+              )}
+              {p.visit && !p.heroku && (
+                <ExternalLinks href={p.visit} target="_blank">
+                  Visit Site
                 </ExternalLinks>
               )}
             </UtilityList>
