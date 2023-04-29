@@ -95,13 +95,13 @@ export const projects = [
     description: [
       "A react frontend application that shows cryptocurrency stats and news",
       "Shows overall cryptocurrency news and stats as well as for individual cryptos",
-      "Application developed using React 16.8+.",
+      "Application developed following good coding standards and practices.",
     ],
     images: ["/images/masoko_5.png"],
-    tags: ["React", "Redux", "Ant Design"],
+    tags: ["React 16.8+", "Redux", "Ant Design"],
     skills: [
       "Refactoring",
-      "Visual Design",
+      "UI Design",
       "Using Rapid API",
       "React 16.8+ hooks",
     ],
@@ -112,10 +112,13 @@ export const projects = [
 
   {
     title: "Personal Portifolio",
-    description: ["Personal Portifolio used to showcase skills and knowledge"],
+    description: [
+      "Personal Portifolio used to showcase skills and knowledge",
+      "Application follows good theming and enhancing good user experience",
+    ],
     images: ["/images/portifolio.png"],
-    tags: ["React", "Styled Component"],
-    skills: ["UI design", "React 16.8+", "Transitions", "UX"],
+    tags: ["React", "Styled Component", "React 16.8+", "CSS"],
+    skills: ["UI design", "Transitions", "UX"],
     source: "https://github.com/samuelmaina/portifolio",
     visit: "https://sm-portifolio.vercel.app/",
     id: 8,
@@ -135,16 +138,6 @@ export const projects = [
     id: 7,
   },
 
-  {
-    title: "Personal Portifolio",
-    description: ["Personal Portifolio used to showcase skills and knowledge"],
-    images: ["/images/portifolio.png"],
-    tags: ["React", "Styled Component"],
-    skills: ["UI design", "React 16.8+", "Transitions", "UX"],
-    source: "https://github.com/samuelmaina/portifolio",
-    visit: "https://sm-portifolio.vercel.app/",
-    id: 8,
-  },
   {
     title: "Elimu Coach",
     description: [
