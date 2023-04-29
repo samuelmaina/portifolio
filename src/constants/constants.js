@@ -89,6 +89,7 @@ export const projects = [
     source: "https://github.com/samuelmaina/ray-tracer",
     id: 3,
   },
+
   {
     title: "Masoko Fedha",
     description: [
@@ -110,6 +111,17 @@ export const projects = [
   },
 
   {
+    title: "Personal Portifolio",
+    description: ["Personal Portifolio used to showcase skills and knowledge"],
+    images: ["/images/portifolio.png"],
+    tags: ["React", "Styled Component"],
+    skills: ["UI design", "React 16.8+", "Transitions", "UX"],
+    source: "https://github.com/samuelmaina/portifolio",
+    visit: "https://sm-portifolio.vercel.app/",
+    id: 8,
+  },
+
+  {
     title: "MLH Funky Fellows",
     description: [
       "Teamed up with 2 teammates to create our own NFT collection on the Solana blockchain.",
@@ -121,6 +133,17 @@ export const projects = [
     source: "https://github.com/samuelmaina/mlh-nft-mint",
     visit: "https://devpost.com/software/mlh-funky-fellows",
     id: 7,
+  },
+
+  {
+    title: "Personal Portifolio",
+    description: ["Personal Portifolio used to showcase skills and knowledge"],
+    images: ["/images/portifolio.png"],
+    tags: ["React", "Styled Component"],
+    skills: ["UI design", "React 16.8+", "Transitions", "UX"],
+    source: "https://github.com/samuelmaina/portifolio",
+    visit: "https://sm-portifolio.vercel.app/",
+    id: 8,
   },
   {
     title: "Elimu Coach",
