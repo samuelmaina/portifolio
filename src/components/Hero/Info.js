@@ -18,7 +18,13 @@ export default function Info() {
         <SectionText>
           -FullStack software engineer,well versed in
           JavaScript/TypeScript(React.js, Next.js, Node.js, Express), C++,Java,
-          Python, SQL(Postgres and MySQL) and NoSQL databases(MongoDB).
+          Python, SQL(Postgres and MySQL) and NoSQL databases(MongoDB). -Well
+          versed in Design and CS fundamentals(200+ LC questions done).
+        </SectionText>
+        <SectionText>
+          -Love adhering to Software Engineering Principles and Practices. Loves
+          reading Software Engineering materials(books, articles, blogs,videos
+          etc).
         </SectionText>
         <SectionText>
           - Experienced in Agile methods (Scrum).Skilled in automated

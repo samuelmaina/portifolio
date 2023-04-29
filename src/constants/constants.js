@@ -117,7 +117,7 @@ export const projects = [
     ],
     images: ["/images/funky_fellows.png"],
     tags: ["React", "Web 3", "Chakra UI"],
-    skills: ["web 3"],
+    skills: ["web 3", "blockchains", "NFTs"],
     source: "https://github.com/samuelmaina/mlh-nft-mint",
     visit: "https://devpost.com/software/mlh-funky-fellows",
     id: 7,
@@ -125,12 +125,12 @@ export const projects = [
   {
     title: "Elimu Coach",
     description: [
-      "A React application that converts numbers between bases. Can convert from base 2 to base 62",
+      "An application that simulates how computers converts between different number systems. Can convert from base 2 to base 62",
       "Application shows steps of conversion.",
     ],
     images: ["/images/kikokotoo.png"],
     tags: ["React 1.8+", "Ant Design", "TypeScript"],
-    skills: ["UI design", "React 16.8++ hooks"],
+    skills: ["UI design", "React 16.8++"],
     source: "https://github.com/samuelmaina/elimu-coach",
     visit: "https://elimu-deployment.vercel.app/",
     id: 6,
