@@ -33,7 +33,7 @@ const data = [
   },
 
   {
-    link: "https://www.ratatype.com/u3056112/certificate/",
+    link: "https://www.ratatype.com/u3056112/certificate-list/en_new/",
     text: "Fast Touch Typing",
     org: "RataType",
     details:
