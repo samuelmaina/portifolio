@@ -63,5 +63,8 @@
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0"
+  },
+  "engines": {
+    "node": "20.11.0"
   }
 }
