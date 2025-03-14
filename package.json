@@ -61,5 +61,8 @@
     "plugins": [
       "babel-plugin-styled-components"
     ]
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
