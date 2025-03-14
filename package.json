@@ -56,15 +56,13 @@
   "devDependencies": {
     "@types/react-vertical-timeline-component": "^3.3.6",
     "babel-plugin-styled-components": "^2.1.4",
-    "next": "^14.0.0",
-    "babel-preset-next": "^14.0.0",
     "eslint": "^8.0.0",
-    "eslint-config-next": "^14.0.0",
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0"
   },
   "engines": {
-    "node": "20.x"
+    "node": "20.x",
+    "npm": "10.x"
   }
 }
