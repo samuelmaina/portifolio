@@ -1,27 +1,8 @@
 {
-<<<<<<< HEAD
-  "name": "portfolio_nextjs",
+  "name": "sm-portifolio",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start"
-  },
-  "dependencies": {
-    "@emailjs/browser": "^3.10.0",
-    "next": "10.2.3",
-    "react": "17.0.2",
-    "react-chrono": "^1.17.0",
-    "react-dom": "17.0.2",
-    "react-icons": "^4.2.0",
-    "styled-components": "^5.3.0",
-    "styled-normalize": "^8.0.7"
-=======
-  "name": "react-portfolio-template",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://yujisatojr.github.io/react-portfolio-template",
+  "homepage": "https://samuelmaina.github.io/portifolio",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
@@ -73,7 +54,12 @@
     ]
   },
   "devDependencies": {
-    "@types/react-vertical-timeline-component": "^3.3.6"
->>>>>>> master
+    "@types/react-vertical-timeline-component": "^3.3.6",
+    "babel-plugin-styled-components": "^2.1.4"
+  },
+  "babel": {
+    "plugins": [
+      "babel-plugin-styled-components"
+    ]
   }
 }
